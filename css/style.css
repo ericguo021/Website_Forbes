@@ -1,0 +1,285 @@
+/* for header */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    height: 60px;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    background-color: black;
+
+}
+
+#drop_down_menu {
+    width: 4%;
+    height: 50px;
+    align-self: center;
+    text-align: center;
+    position: relative;
+    top: 8px;
+    
+}
+
+#newsletters {
+    width: 13%;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    align-self: center;
+    margin-right: -5px;
+    position: relative;
+    left: -5px;
+}
+
+#email_logo{
+    width:5%;
+    text-align: left;
+    position: relative;
+    top: 12px;
+    margin-left: -5px;
+    padding-left: -5px;
+}
+
+#title {
+    width:50%;
+    font-size: 35px;
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: -15px;
+    left: 25px;
+
+}
+
+
+#subscribe {
+    width: 14% ;
+    height: 40px;
+    color:white;
+    background-color: #dc0000;
+    border-radius: 12px;
+    text-align: center;
+    align-self: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 35px;
+
+
+}
+
+
+#sign_in {
+    width:6%;
+    height: 65%;
+    margin-top: 8px;
+    flex-basis: auto;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    position: relative;
+    left: 10px;
+}
+#search {
+    width:4%;
+    position: relative;
+    top:12px;
+}
+
+
+
+#class_holder2 {
+    width: 1% ;
+}
+
+
+
+#break{
+    height:30px;
+    width:80px;
+    background-color: #dc0000;
+    color:white;
+    font-size: 10px;
+    font-family:sans-serif ;
+    position: relative;
+    text-align: center;
+    line-height: 30px;
+    left:90px;
+    top:10px;
+}
+
+/*nav menu on the top*/
+nav{
+    height: 100px;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    position: relative;
+    left:90px;
+
+}
+
+#nav1, #nav2,#nav3, #nav4{
+    width: 21%;
+    font-size: 18px;
+    border-right: 1px solid grey;
+    margin-left: 10px;
+}
+
+.time {
+    font-size: 14px;
+    color:grey;
+}
+
+
+#version{
+    font-size: 14px;
+    color: grey;
+    position: relative;
+    left: 92px;
+}
+
+#hr1 {
+    width: 87%;
+    color:grey;
+}
+
+
+
+#lower_nav {
+    width:95%;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: auto;
+    flex-direction: row;
+    list-style: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+}
+
+
+main{
+    height: 700px;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-right:90px
+}
+
+
+#left_col{
+    width:67%;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    position: relative;
+    left:-30px
+    
+}
+
+#lbox1{
+    height:70%;
+}
+
+#lbox2 {
+    height: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+#lbox3 {
+    height:3px;
+    font-size: 14px;
+    text-align: center;
+ 
+    font-weight: 100;
+
+}
+
+.emphasized {
+    font-weight: 900;
+}
+
+#lbox4 {
+    height: 5%;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+#right_col{
+    width:35%;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+}
+
+
+#rbox1 {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#rbox2 {
+    font-size: 14px;
+    color:grey;
+    position: relative;
+    top: -10px;
+}
+
+#rbox3 {
+    height: 40px;
+    width:170px;
+    background-color: #007ac8;
+    color: #fff;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-stretch: normal;
+    line-height: 35px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+#rbox4,#rbox6  {
+    font-size:12px;
+    position: relative;
+    top: -10px;
+}
+
+#rbox5, #rbox7 {
+    height:120px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-around;
+}
+#rbox51, #rbox71 {
+    width: 77%;
+    height:75px;
+    font-size: 18px;
+}
+
+#rbox52 {
+    height:130px;
+    position: relative;
+}
+
+
+hr {
+    width:100%;
+    color:grey;
+    position:relative;
+    top:-10px;
+}
